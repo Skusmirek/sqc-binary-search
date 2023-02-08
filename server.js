@@ -13,4 +13,6 @@ const binarySearch = function (sortedArray, target) {
   }
   console.log('Not found')
 }
-console.log(binarySearch([1, 4, 5, 7, 8], 7))
+console.log(binarySearch([1, 4, 5, 7, 8].splice(1,4), 7))
+console.log(binarySearch([11, 44, 55, 77, 88].splice(2,3), 77))
+console.log(binarySearch([10, 40, 50, 70, 80].splice(3,4), 10))
